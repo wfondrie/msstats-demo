@@ -1,0 +1,14 @@
+# https://github.com/wfondrie/msstats-demo/environment.yaml
+name: msstats-demo
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - ppx>=1.2.5                   # For downloading data
+  - bioconductor-msstats==4.2.0  # The MSstats R package
+  - notebook                     # Jupyter notebook
+  - pandas                       # DataFrames for tabular data
+  - matplotlib                   # The de facto standard Python plotting library
+  - seaborn                      # Make matplotlib plots pretty
+  - rpy2                         # For using R packages in Python!
