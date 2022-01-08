@@ -1,2 +1,3 @@
-# msstats-demo
-A demonstration of using MSstats in Python
+# An MSstats demo in Python
+
+This repository accompanies my recent blog post: 
